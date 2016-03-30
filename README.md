@@ -11,7 +11,7 @@ Both are good strategies to achieve what we want, but, which one is the best? bo
     - It's cleaner, because we don't create extra files
   - *Cons*
     - It could lead in problems if you use an improper port
-    - It could work wrong (or even not work) in case the server got corrputed by a wrong request
+    - It could work wrong (or even not work) in case the server got corrupted by a wrong request
 - **I/O Strategy**
   - *Pros*
     - It's less error prone, we just need to have the proper rights on the file to watch and edit
