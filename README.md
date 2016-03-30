@@ -17,9 +17,9 @@ Both are good strategies to achieve what we want, but, which one is the best? bo
     - It's less error prone, we just need to have the proper rights on the file to watch and edit
     - It's independent, because we can create the file where we want, we don't depend on network traffic nor port availability
   - *Cons*
-    - It's slower, because we're writting/watching files
-      - this is partially correct, depending on the data we're writting, if we're writing tiny messages: `{msg : 'This is a message'}` then it's as faster as the Server Strategy, but if you want to write base64 encoded images : `{msg : 'data/url...'}` then it's going to be slower than the other strategy.
-    - It's a 'dirty' strategy because we're writting extra files.
+    - It's slower, because we're writing/watching files
+      - this is partially correct, depending on the data we're writing, if we're writing tiny messages: `{msg : 'This is a message'}` then it's as faster as the Server Strategy, but if you want to write base64 encoded images : `{msg : 'data/url...'}` then it's going to be slower than the other strategy.
+    - It's a 'dirty' strategy because we're writing extra files.
 
 For this example I chosen the **I/O Strategy** because it's less error prone.
 
