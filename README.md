@@ -21,4 +21,12 @@ Both are good strategies to achieve what we want, but, which one is the best? bo
       - this is partially correct, depending on the data we're writting, if we're writing tiny messages: `{msg : 'This is a message'}` then it's as faster as the Server Strategy, but if you want to write base64 encoded images : `{msg : 'data/url...'}` then it's going to be slower than the other strategy.
     - It's a 'dirty' strategy because we're writting extra files.
 
-For this example I chosen the **I/O Strategy** because it's less error prone. to run the test you just need to write the command: `npm run start`, I'm using concurrently to run both processes on the same cli window, but you can run it in separate windows by running the commands : `node ./process1` and `node ./process2`
+For this example I chosen the **I/O Strategy** because it's less error prone.
+
+To run the test, first you need to clone this repo:
+
+```
+git clone https://github.com/brion25/handle-events-different-files.git
+```
+
+ then you just need to run the command: `npm run start`, I'm using concurrently to run both processes on the same cli window, but you can run it in separate windows by running the commands : `node ./process1` and `node ./process2`
