@@ -1,0 +1,23 @@
+{
+  "name": "handle-events-different-files",
+  "version": "1.0.0",
+  "description": "Handle events in different files/process on nodeJS",
+  "main": "process1.js",
+  "scripts": {
+    "start": "node ./node_modules/concurrently/src/main.js --kill-others \"node ./process1\" \"node ./process2\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brion25/handle-events-different-files.git"
+  },
+  "keywords": [
+    "event",
+    "eventemitter"
+  ],
+  "author": "JC Gomez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brion25/handle-events-different-files/issues"
+  },
+  "homepage": "https://github.com/brion25/handle-events-different-files#readme"
+}
