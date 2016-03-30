@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/brion25/handle-events-different-files/issues"
   },
-  "homepage": "https://github.com/brion25/handle-events-different-files#readme"
+  "homepage": "https://github.com/brion25/handle-events-different-files#readme",
+  "dependencies": {
+    "concurrently": "^2.0.0"
+  }
 }

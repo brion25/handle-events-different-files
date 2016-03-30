@@ -28,5 +28,10 @@ To run the test, first you need to clone this repo:
 ```
 git clone https://github.com/brion25/handle-events-different-files.git
 ```
+Install the dependencies:
 
- then you just need to run the command: `npm run start`, I'm using concurrently to run both processes on the same cli window, but you can run it in separate windows by running the commands : `node ./process1` and `node ./process2`
+```
+npm install
+```
+
+And then you just need to run the command: `npm run start`, I'm using concurrently to run both processes on the same cli window, but you can run it in separate windows by running the commands : `node ./process1` and `node ./process2`
